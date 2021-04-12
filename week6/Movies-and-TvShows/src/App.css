@@ -1,0 +1,76 @@
+body {
+  background-color: grey;
+}
+
+#links  {
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 20px;
+}
+
+#links > a {
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color:lightgray;
+}
+
+#footer > h4 {
+  margin: 0px;
+  padding: 8px;
+}
+
+.item {
+  text-align: center;
+  background-color:grey;
+  margin: 35px;
+  padding: 15px;
+  border-radius: 20px;
+  
+}
+
+.item > h2 {
+  margin-top: 0px;
+  color: white;
+}
+
+.item > button {
+  border-radius: 20px;
+}
+
+.item:nth-child(odd) {
+  
+color: black
+}
+
+.form {
+  margin: 10px;
+  text-align: center;
+}
+
+.form > input {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.form > button {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#header {
+  text-align: center;
+  margin: 35px;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
